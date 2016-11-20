@@ -4,6 +4,7 @@ import numpy.testing as nptest
 import numpy as np
 
 class TestJointDistribution(unittest.TestCase):
+    # test comment
     def test_set_joint_counts(self):
         distribution = JointDistribution(2,2)
         distribution.set_joint_counts(np.array([[3, 3],[3, 1]]))
